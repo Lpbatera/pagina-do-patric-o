@@ -1,5 +1,3 @@
-# pagina-do-patric-o
-
 <h1 align="center">
 Página do Patricão
 </h1>
