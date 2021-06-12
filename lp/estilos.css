@@ -1,0 +1,132 @@
+/* soft reset do css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightblue;
+  font-family: 'Source Code Pro', monospace;
+  height: 100vh;
+  font-size: 12px;
+}
+
+
+.menu {
+  background-color:white;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  z-index: 1;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li {
+ list-style: none; 
+}
+
+.menu a {
+  display: block;
+  padding: 10px 20px;
+  transition: background-color 1s, color 1s;
+}
+
+.menu a:active,
+.menu a:hover {
+  background-color: teal;
+  color: white;
+}
+
+a {
+  color: teal;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.site-subtitle, 
+.site-title {
+  color: whitesmoke;
+  text-align: center;
+}
+
+.site-title {
+  font-size: 4em;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.site-subtitle {
+ font-style: italic;
+ font-family: 'Press Start 2P', cursive;
+ line-height: 1.8em;
+}
+
+.contato .icons {
+  text-align: center;
+}
+
+.contato a {
+  color: whitesmoke;
+  font-size: 4em;
+  transition: text-shadow 1s;
+}
+
+.contato a:active,
+.contato a:hover  {
+  text-decoration: none;
+  text-shadow: 0px 0px 10px rgba(255,255,255,.5);
+}
+
+@media (min-width: 1200px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+  }
+}
+
+p{
+	text-align:center; 
+    font-size:21px;
+	font-family: 'Rock Salt', cursive;
+	color:#696969;
+}
+
+li{
+    font-family: 'Rock Salt', cursive;
+	font-size:21px;
+	color:#696969;
+}
+
+.titulo{
+	position:float;
+	padding: 50px;
+	padding-top: 100px;
+	
+}
+
+i{
+	color:#191970;
+}
+
+img{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	height: 200px;
+	width: auto;
+	border-radius: 50%;
+}
+
+.foto{
+	display: flex;
+	align-content: flex-start;
+    justify-content: center;
+}
