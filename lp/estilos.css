@@ -130,3 +130,7 @@ img{
 	align-content: flex-start;
     justify-content: center;
 }
+
+.sobre{
+	padding:5px;
+}
